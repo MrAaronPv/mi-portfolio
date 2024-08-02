@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    background-color: #ddddee;
+    position: relative;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* transform: translate(-50%, -50%); */
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.eye {
+    background-color: #dee;
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 1s ease;
+}
+
+.eye:hover {
+    transform: translate(-50%, -50%) scale(1.5);
+}
